@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Agrega los archivos CSS y JavaScript de Bootstrap -->
+    <!-- Agrega el archivo CSS personalizado si lo deseas -->
+</head>
+<body>
+    <div class="container">
+        <h1>Crear un nuevo post</h1>
+        <form action="/crear" method="POST">
+            <!-- Agrega campos para el título, contenido y URL de la imagen -->
+            <div class="form-group">
+                <label for="titulo">Título del post</label>
+                <input type="text" class="form-control" id="titulo" name="titulo" required>
+            </div>
+            <div class="form-group">
+                <label for="contenido">Contenido del post</label>
+                <textarea class="form-control" id="contenido" name="contenido" rows="4" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="imagenURL">URL de la imagen</label>
+                <input type="url" class="form-control" id="imagenURL" name="imagenURL">
+            </div>
+            <button type="submit" class="btn btn-primary">Crear Post</button>
+        </form>
+    </div>
+</body>
+</html>
+<!-- Agrega los archivos CSS de Bootstrap -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- Agrega los archivos JavaScript de Bootstrap (jQuery y Popper.js son requeridos) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<form id="create-post-form" action="/crear" method="POST">
+    <!-- Campos del formulario -->
+</form>
