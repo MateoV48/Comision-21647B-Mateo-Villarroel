@@ -1,0 +1,31 @@
+{
+  "name": "mi-proyecto-foro-main",
+  "version": "1.0.0",
+  "description": "trabajo integrador final",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodeman ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MateoV48/Mi-Proyecto-Foro.git"
+  },
+  "author": "Mateo Villarroel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MateoV48/Mi-Proyecto-Foro/issues"
+  },
+  "homepage": "https://github.com/MateoV48/Mi-Proyecto-Foro#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "helmet": "^7.0.0",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.6.1",
+    "nomade": "^1.2.0",
+    "sequelize": "^6.33.0"
+  }
+}
